@@ -31,7 +31,6 @@ public class DataSourceRegistry implements Initializer, Finalizer {
   @Override
   public void initializeComponent(Vertx vertx, JsonObject config) {
     // Skip if we are already initialized
-    LOGGER.debug("Initialization called upon.");
     if (!initialized) {
       LOGGER.debug("May have to do initialization");
       // We need to do initialization, however, we are running it via verticle instance which is going to run in 

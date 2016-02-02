@@ -20,11 +20,18 @@ public class MessageConstants {
   public static final String MSG_HTTP_HEADERS = "http.headers";
   
   // Operation names: Also need to be updated in corresponding handlers
-  public static final String MSG_OP_TAX_SUB_GET = "tax.sub.get";
+  public static final String MSG_OP_TAXONOMY_SUBJECTS_GET = "taxonomy.subjects.get";
+  public static final String MSG_OP_TAXONOMY_COURSES_GET = "taxonomy.courses.get";
+  public static final String MSG_OP_TAXONOMY_DOMAINS_GET = "taxonomy.domains.get";
+  public static final String MSG_OP_TAXONOMY_STANDARDS_GET = "taxonomy.standards.get";
 
   // Containers for different responses
   public static final String RESP_CONTAINER_MBUS = "mb.container";
   public static final String RESP_CONTAINER_EVENT = "mb.event";
+  public static final String MSG_MESSAGE = "message";
   
+  public static final String SUBJECT_ID = "subjectId";
+  public static final String COURSE_ID = "courseId";
+  public static final String DOMAIN_ID = "domainId";
 
 }
